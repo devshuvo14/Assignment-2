@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navber-style */
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.navber .logo{
+    display: flex;
+    align-items: center;
+}
+
+.navber .logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navber .logo span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navber .nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.navber .nav-links li{
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navber .nav-links a{
+    text-decoration: none;
+    
+
+}
+
+.nav-color{
+    color: #fea101cb;
+
+}
+
+.nav-color1{
+    color: #01ACFD;
+}
+.nav-color2{
+    color: #05D4DF;
+}
+.nav-color3{
+    color: #5D58EF;
+}
+
+.contact-but{
+    padding: 8px 22px;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.Mobile-menu{
+    display: none;
+}
+
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 576px) {
+
+    .Mobile-menu{
+        display: inline;
+        font-size: 18px;
+    }
+    .nav-links li a{
+        display: none;
+    }
+
+    .logo span{
+        display: none;
+    }
+
+    .contact-but{
+        display: none;
+    }
+
+    .navber{
+        border-bottom: 1px solid #FEA301;
+    }
+
+}
+
+/* Mobile Responsiveness */
+
